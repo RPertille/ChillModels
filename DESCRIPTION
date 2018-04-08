@@ -1,6 +1,6 @@
 Package: ChillModels
 Title: Functions for Processing Models of Chill and Heat
-Version: 1.0.1
+Version: 1.0.0
 Authors@R: c(person("Marcos Robson", "Sachet", email = "marcos.sachet@gmail.com", role = c("aut","ctb")),
   person("Rafael Henrique", "Pertille", email = "henriquepertille@gmail.com", role = c("aut","cre")),
   person("Idemir", "Citadin", email = "idemir@utfpr.edu.br", role = "ctb"))
