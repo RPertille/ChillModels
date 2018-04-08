@@ -6,7 +6,8 @@
 #' @details The PCU Model is the modified Utah Model. When the temperature is above 15.9°C, the chill-unit is 0. This modification was made because when the Utah model is applied in warm conditions, accumulation becomes negative.
 #' @return The function returns values the chill-units for each temperature of vector.
 #' @author Marcos Robson Sachet & Rafael Henrique Pertille.
-#' @references Richardson, E, A. et al. 1974. "A Model for Estimating the Completation of Rest for 'Redhaven' and 'Elberta' Peach Trees". Research Reports & Notes. EBERT, A. et al. 1986. First experiences with chill units models is southern Brazil. Acta Horticulturae, The Hague,v. 184, p. 89-96.
+#' @references Richardson, E, A. et al. 1974. "A Model for Estimating the Completation of Rest for 'Redhaven' and 'Elberta' Peach Trees". Research Reports & Notes. 
+#' EBERT, A. et al. 1986. First experiences with chill units models is southern Brazil. Acta Horticulturae, The Hague,v. 184, p. 89-96.
 #' @importFrom utils tail
 #' @export
 pcu_model <- function(x, total=TRUE){
