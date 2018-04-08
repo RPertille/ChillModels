@@ -21,7 +21,7 @@ Quantifies the chill accumulation rates by means of converting temperatures to c
 The model is based on chill-units, but the limits are unknown.
 }
 \references{
-Doesn't have reference!!! (CHUINE)
+Chuine, I. et al. 2016. Can phenological models predict tree phenology accurately in the future? The unrevealed hurdle of endodormancy break. Global Change Biology.
 }
 \author{
 Marcos Robson Sachet & Rafael Henrique Pertille.
