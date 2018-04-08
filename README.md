@@ -3,5 +3,5 @@
 
 ## Pacote com funções para cálculo de modelos de acúmulo de frio e calor para espécies de frutíferas de clima temperado
 
-#### Marcos Robson Sachet e Rafael Henrique Pertille 
+#### Marcos Robson Sachet, Rafael Henrique Pertille e Idemir Citadin.
 ##### UTFPR - Campus Pato Branco
