@@ -1,4 +1,4 @@
-#' @title Sweet Cherry Model
+#' @title Sweet Cherry
 #' @name cherry_model
 #' @description Quantifies the chill accumulation rates by means of converting temperatures to chill-units.
 #' @param x Vector containing temperature values (Celsius-degree).

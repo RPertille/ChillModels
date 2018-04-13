@@ -1,7 +1,6 @@
 Package: ChillModels
 Title: Functions for Processing Models of Chill and Heat
 Version: 1.0.0
-Date: 2018-04-09
 Authors@R: c(person("Rafael Henrique", "Pertille", email = "henriquepertille@gmail.com", role = c("aut","cre")),
   person("Marcos Robson", "Sachet", email = "marcos.sachet@gmail.com", role = c("aut","ctb")),
   person("Idemir", "Citadin", email = "idemir@utfpr.edu.br", role = c("aut","ctb")))
@@ -11,3 +10,4 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: TRUE
 RoxygenNote: 6.0.1
+Suggests: testthat
