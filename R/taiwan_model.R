@@ -22,7 +22,7 @@ taiwan_model <- function(x, total=TRUE){
   y[which(x>t[1] & x<=t[2])] <- v[2]
   y[which(x>t[2] & x<=t[3])] <- v[3]
   y[which(x>t[3] & x<=t[4])] <- v[4]
-  
+  y[which(x>t[4])] <- v[5]
   if (total==TRUE)
     return(tail(cumsum(y),n=1))
   else return(y)
