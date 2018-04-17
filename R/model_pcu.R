@@ -7,7 +7,7 @@
 #' @return The function returns values the chill-units for each temperature of vector.
 #' @examples 
 #' 
-#' a <- pcu_model(rnorm(1000, 15, 4))
+#' a <- pcu_model(rnorm(1000, 15, 4), FALSE)
 #' hist(a)
 #' 
 #' @references Richardson, E, A. et al. 1974. "A Model for Estimating the Completation of Rest for 'Redhaven' and 'Elberta' Peach Trees". Research Reports & Notes. 

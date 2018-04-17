@@ -22,7 +22,7 @@ The model is based on chill-units, where 1 chill-unit is when the tree is exposu
 }
 \examples{
 
-a <- utah_model(rnorm(1000, 5 , 3))
+a <- utah_model(rnorm(1000, 5 , 3), FALSE)
 hist(a)
 
 }

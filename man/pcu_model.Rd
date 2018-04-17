@@ -22,7 +22,7 @@ The PCU Model is the modified Utah Model. When the temperature is above 15.9°C,
 }
 \examples{
 
-a <- pcu_model(rnorm(1000, 15, 4))
+a <- pcu_model(rnorm(1000, 15, 4), FALSE)
 hist(a)
 
 }
