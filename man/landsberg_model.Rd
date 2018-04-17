@@ -20,9 +20,11 @@ Quantifies the chill accumulation rates based in the base temperature.
 \details{
 The model is based on the subtraction of the base temperature of each hourly temperature. The temperature of the base is 5°C.
 }
+\examples{
+
+landsberg_model(rnorm(1000, 8, 5))
+
+}
 \references{
 I don't know.!!!
-}
-\author{
-Marcos Robson Sachet & Rafael Henrique Pertille.
 }

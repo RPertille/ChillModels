@@ -9,7 +9,7 @@ heat_restriction(x, model, nh, total = TRUE)
 \arguments{
 \item{x}{Vector containing temperature values (Celsius-degree).}
 
-\item{model}{Model to be used for calculation.}
+\item{model}{Model to be used for calculation. Use "utah" for Utah Model and "nc" for North Carolina Model.}
 
 \item{nh}{Number of hours of continuous heat.}
 
@@ -24,9 +24,9 @@ Quantifies the chill accumulation rates by Utah Model and North Carolina Model, 
 \details{
 The model is based on chill-units (Utah Model or North Carolina Model). After a certain number of hours of heat to stop counting the negative units. Negativation of the cold by the heat is restricted to a few days, 24h for Raseira (1982), 96h for Ebert (1986), 30 hours for Fishmann (1987) and 36 hours for Anzanello (2012).
 }
+\examples{
+heat_restriction(rep(19:26, 250), model = "nc", nh = 24)
+}
 \references{
 Raseira (1982), Ebert (1986), Fishmann (1987) and Anzanello (2012).
-}
-\author{
-Marcos Robson Sachet & Rafael Henrique Pertille.
 }

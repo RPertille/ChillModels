@@ -5,7 +5,11 @@
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of GDH for each temperature (TRUE is default).
 #' @details The GDH Model is based on base and optimum temperature. The base temperature is 4°C. The optimum and critical temperature are 25°C and 36°C, respectively.
 #' @return The function returns values the GDH for each temperature of vector.
-#' @author Marcos Robson Sachet & Rafael Henrique Pertille.
+#' @examples 
+#' 
+#' gdha_model(rnorm(1000, 8, 5))
+#' 
+#' 
 #' @references Anderson, J. L. et al. 1986. Validation of chill unit and flower bud phenology models for "Montmorency" sour cherry. Acta Horticulturae - Modelling in Fruit Research.
 #' @importFrom utils tail
 #' @export

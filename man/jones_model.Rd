@@ -20,9 +20,12 @@ Quantifies the chill accumulation rates by means of converting temperatures to e
 \details{
 I don't know (exponetial units temperature???)
 }
+\examples{
+ 
+jones_model(rnorm(1000,8,5))
+ 
+ 
+}
 \references{
 JONES, H. G., HILLIS, R. M., GORDON, S. L., and BRENNAN, R. M. (2013). An approach to the determination of winter chill requirements for different Ribes cultivars. Plant. Biol.
-}
-\author{
-Marcos Robson Sachet & Rafael Henrique Pertille.
 }

@@ -6,7 +6,10 @@
 #' @details The model is based on chill-units, where 1 chill-unit is when the tree is exposure between -2.1°C and 5.5°C. When the temperature is above 18°C, the chill-unit is -1. The chill-units accumulation is 0 when occurs temperature between 13°C and 16°C.
 #' @note This model was make for quantifying the chill accumulation rates to 'Gala' apple or varieties of the Gala group. We aren't recommended the apliccation for others species or others groups of the apple tree.
 #' @return The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
-#' @author Marcos Robson Sachet & Rafael Henrique Pertille.
+#' @examples
+#' 
+#' gala_model(rep(3:15,100))
+#' 
 #' @references GUAK, Sunghee & NEILSEN, Denise. (2013). Chill Unit Models for Predicting Dormancy Completion of Floral Buds in Apple and Sweet Cherry.
 #' @importFrom utils tail
 #' @export

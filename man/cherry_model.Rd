@@ -23,9 +23,12 @@ The model is based on chill-units, where 1 chill-unit is when the tree is exposu
 \note{
 This model was make for quantifying the chill accumulation rates to 'Sweetheart' Sweet Cherry. We aren't recommended the apliccation for others species.
 }
+\examples{
+
+a <- cherry_model(rnorm(1000, 8, 7), FALSE)
+hist(a)
+
+}
 \references{
 GUAK, Sunghee & NEILSEN, Denise. (2013). Chill Unit Models for Predicting Dormancy Completion of Floral Buds in Apple and Sweet Cherry.
-}
-\author{
-Marcos Robson Sachet & Rafael Henrique Pertille.
 }

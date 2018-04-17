@@ -5,7 +5,10 @@
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill for each temperature (TRUE is default).
 #' @details The model is based on dynamic accumulation, by means of the relationship between temperatures. The dynamic model assumes that the accumulated chill-units are not annulled by high temperatures.
 #' @return The function returns values the chill for each temperature of vector (Total = FALSE), or returns the chill accumulation (Total = TRUE).
-#' @author Marcos Robson Sachet & Rafael Henrique Pertille.
+#' @examples
+#' 
+#' dynamic_model(rnorm(1000, 10, 5))
+#' 
 #' @references FISHMAN, Svetlana, EREZ, A. & COUVILLON, G. A. (1987). The Temperature Dependence of Dormancy Breaking in Plants: Computer Simulation of Processes Studied Under Controlled Temperatures. J. Theor. Biol.
 #' @importFrom utils tail
 #' @export

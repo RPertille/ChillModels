@@ -20,10 +20,12 @@ Quantifies the Growing Degree Hours at between the base and optimum temperatures
 \details{
 The GDH model is based on the subtraction of the base temperature of each hourly temperature between 4.5°C and 25°C. The temperature of the base is 4.5°C. Therefore, accumulation under temperatures below 4.5°C and above 25°C is zero.
 }
+\examples{
+
+gdhr_model(rnorm(1000,8,3))
+
+}
 \references{
 ANDERSON, J. L. et al. 1986. Validation of chill unit and flower bud phenology models for "Montmorency" sour cherry. Acta Horticulturae - Modelling in Fruit Research. 
 RICHARDSON, E.A. et al. 1975. Pheno-climatographyof spring 249 peach bud development. HortScience.
-}
-\author{
-Marcos Robson Sachet & Rafael Henrique Pertille.
 }

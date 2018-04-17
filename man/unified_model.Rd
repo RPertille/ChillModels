@@ -20,9 +20,11 @@ Quantifies the chill accumulation rates by means of converting temperatures to c
 \details{
 The model is based on chill-units, but the limits are unknown.
 }
+\examples{
+
+unified_model(rnorm(100, 10, 3), FALSE)
+
+}
 \references{
 Chuine, I. et al. 2016. Can phenological models predict tree phenology accurately in the future? The unrevealed hurdle of endodormancy break. Global Change Biology.
-}
-\author{
-Marcos Robson Sachet & Rafael Henrique Pertille.
 }

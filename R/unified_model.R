@@ -5,7 +5,10 @@
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill-unit for each temperature (TRUE is default).
 #' @details The model is based on chill-units, but the limits are unknown.
 #' @return The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
-#' @author Marcos Robson Sachet & Rafael Henrique Pertille.
+#' @examples 
+#' 
+#' unified_model(rnorm(100, 10, 3), FALSE)
+#' 
 #' @references Chuine, I. et al. 2016. Can phenological models predict tree phenology accurately in the future? The unrevealed hurdle of endodormancy break. Global Change Biology.
 #' @importFrom utils tail
 #' @export

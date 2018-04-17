@@ -1,17 +1,17 @@
-#' @title Dinamic Model Modified
-#' @name dinamic_modelrp
+#' @title Dynamic Model Modified
+#' @name modified_dynamic
 #' @description Quantifies the chill accumulation rates with modified dynamic equation for subtropical climate conditions .
 #' @param x Vector containing temperature values (Celsius-degree).
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill for each temperature (TRUE is default).
 #' @details The model is based on dynamic accumulation, by means of the relationship between temperatures. It is applicable in subtropical climate conditions. This model was calibrated and validated based on observations of orchards in Palmas - PR, Brazil.
 #' @return The function returns values the chill for each temperature of vector (Total = FALSE), or returns the chill accumulation (Total = TRUE).
-#' @author Marcos Robson Sachet & Rafael Henrique Pertille.
+#' @author Marcos Robson Sachet, Idemir Citadin & Rafael Henrique Pertille
 #' @references FISHMAN, Svetlana, EREZ, A. & COUVILLON G. A. (1987). The Temperature Dependence of Dormancy Breaking in Plants: Computer Simulation of Processes Studied Under Controlled Temperatures. J. Theor. Biol.
 #' @note (Modelo da tese).
 #' @importFrom utils tail
 #' @export
 
-dinamic_modelrp <- function(x,total=TRUE){
+modified_dynamic <- function(x,total=TRUE){
   e0 <- 4916.91140203932
   e1 <- 14181.7713569974
   a0 <- 129964.90415947

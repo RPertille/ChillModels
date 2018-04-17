@@ -20,9 +20,12 @@ Quantifies the chill accumulation rates by means of converting temperatures to c
 \details{
 The model is based on chill-units, where 1 chill-unit is when the tree is exposure between 2.4°C and 9.1°C, being the optimum temperature 6°C . When the temperature is between 9.1°C and 12.4°C, the chill-unit is 0.5. The chill-units accumulation is 0 when occurs temperature below 1.4 and between 12.5°C and 15.9°C. When the temperature is between 16°C and 18°C, the chill-unit is -0.5. When the temperature is above 18°C, the chill-unit is -1.
 }
+\examples{
+
+a <- utah_model(rnorm(1000, 5 , 3))
+hist(a)
+
+}
 \references{
 Richardson, E, A. et al. 1974. "A Model for Estimating the Completation of Rest for 'Redhaven' and 'Elberta' Peach Trees". Research Reports & Notes.
-}
-\author{
-Marcos Robson Sachet & Rafael Henrique Pertille.
 }

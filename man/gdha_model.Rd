@@ -20,9 +20,12 @@ Quantifies the Growing Degree Hours at between the base and optimum temperatures
 \details{
 The GDH Model is based on base and optimum temperature. The base temperature is 4°C. The optimum and critical temperature are 25°C and 36°C, respectively.
 }
+\examples{
+
+gdha_model(rnorm(1000, 8, 5))
+
+
+}
 \references{
 Anderson, J. L. et al. 1986. Validation of chill unit and flower bud phenology models for "Montmorency" sour cherry. Acta Horticulturae - Modelling in Fruit Research.
-}
-\author{
-Marcos Robson Sachet & Rafael Henrique Pertille.
 }

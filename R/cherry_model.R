@@ -6,7 +6,11 @@
 #' @details The model is based on chill-units, where 1 chill-unit is when the tree is exposure between -2.1°C and 7°C. When the temperature is above 18°C the chill-unit is -1. The chill-units accumulation is 0 when occurs temperature between 14°C and 16°C.
 #' @note This model was make for quantifying the chill accumulation rates to 'Sweetheart' Sweet Cherry. We aren't recommended the apliccation for others species.
 #' @return The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
-#' @author Marcos Robson Sachet & Rafael Henrique Pertille.
+#' @examples 
+#' 
+#' a <- cherry_model(rnorm(1000, 8, 7), FALSE)
+#' hist(a)
+#' 
 #' @references GUAK, Sunghee & NEILSEN, Denise. (2013). Chill Unit Models for Predicting Dormancy Completion of Floral Buds in Apple and Sweet Cherry.
 #' @importFrom utils tail
 #' @export

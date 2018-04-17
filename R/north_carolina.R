@@ -5,7 +5,10 @@
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill-unit for each temperature (TRUE is default).
 #' @details The model is based on chill-units and optimum temperature, minimum and maximum temperature limits (They aren't classes), where 1 chill-unit is when the tree is exposure at optimum temperature (7.2°C). When the temperature is above 23°C (maximum temperature limit), the chill-unit is -2. The chill-units accumulation is 0 when occurs temperature below -1.1°C, being the miminum temperature limit.
 #' @return The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
-#' @author Marcos Robson Sachet & Rafael Henrique Pertille.
+#' @examples 
+#' 
+#' north_carolina(rnorm(100, 5, 4), FALSE)
+#' 
 #' @references SHALTOUT, Assem D. & UNRATH, C. R. 1983. Rest Completion Prediction Model for 'Starkrimson Delicious' Apples. J. Amer. Soc. Hort. Sci.
 #' @importFrom utils tail
 #' @export

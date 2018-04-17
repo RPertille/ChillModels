@@ -20,9 +20,12 @@ Quantifies the chill accumulation rates by means of converting temperatures to c
 \details{
 The model is based on chill-units, where 1 chill-unit is when the tree is exposure between 1.8°C and 8°C. When the temperature is above 19.5°C, the chill-unit is -1. The chill-units accumulation is 0 when occurs temperature below -1°C and between 14°C and 17°C.
 }
+\examples{
+
+a <- lowchill_model(rnorm(1000, 12, 5), FALSE)
+hist(a)
+
+}
 \references{
 GILREATH, Phyllis R. & BUCHANAN, D. W. (1981). Rest Prediction Model for Low-chilling 'Sungold' Nectarine. J. Amer. Soc. Hort. Sci.
-}
-\author{
-Marcos Robson Sachet & Rafael Henrique Pertille.
 }

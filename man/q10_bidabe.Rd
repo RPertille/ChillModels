@@ -20,10 +20,12 @@ Quantifies the chill accumulation rates by means of converting temperatures to t
 \details{
 The model is based on temperature coeficients (Q10). The Q10 coeficient is variable for each specie. The model contains dinamic variables. This model is been aplied in the warm climates. Was based on an exponential function that decreases according to the increase in temperature.
 }
+\examples{
+
+q10_bidabe(rnorm(100, 10, 3), FALSE)
+
+}
 \references{
 FISHMAN, Svetlana & COUVILLON, G. A. 1987. The Temperature Dependence of Dormancy Breaking in Plants: Mathematical Analysis of a Two-Step Model Involving a Cooperative Transition. J. Theor. Biol.
 BIDABE, B. 1967. Action de la temperature sur l' evolution des bourgeons de pommier et comparaison de methodes de controle de l' epoque de floraison. Annu. Physiol. Veg.
-}
-\author{
-Marcos Robson Sachet & Rafael Henrique Pertille.
 }

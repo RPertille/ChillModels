@@ -20,9 +20,11 @@ Quantifies the chill accumulation rates with dynamic equation.
 \details{
 The model is based on dynamic accumulation, by means of the relationship between temperatures. The dynamic model assumes that the accumulated chill-units are not annulled by high temperatures.
 }
+\examples{
+
+dynamic_model(rnorm(1000, 10, 5))
+
+}
 \references{
 FISHMAN, Svetlana, EREZ, A. & COUVILLON, G. A. (1987). The Temperature Dependence of Dormancy Breaking in Plants: Computer Simulation of Processes Studied Under Controlled Temperatures. J. Theor. Biol.
-}
-\author{
-Marcos Robson Sachet & Rafael Henrique Pertille.
 }

@@ -23,9 +23,11 @@ The model is based on chill-units, where 1 chill-unit is when the tree is exposu
 \note{
 This model was make for quantifying the chill accumulation rates to 'Gala' apple or varieties of the Gala group. We aren't recommended the apliccation for others species or others groups of the apple tree.
 }
+\examples{
+
+gala_model(rep(3:15,100))
+
+}
 \references{
 GUAK, Sunghee & NEILSEN, Denise. (2013). Chill Unit Models for Predicting Dormancy Completion of Floral Buds in Apple and Sweet Cherry.
-}
-\author{
-Marcos Robson Sachet & Rafael Henrique Pertille.
 }

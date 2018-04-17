@@ -5,7 +5,11 @@
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill for each temperature (TRUE is default).
 #' @details I don't know (exponetial units temperature???)
 #' @return The function returns values the chill for each temperature of vector (Total = FALSE), or returns the chill accumulation (Total = TRUE).
-#' @author Marcos Robson Sachet & Rafael Henrique Pertille.
+#' @examples 
+#'  
+#' jones_model(rnorm(1000,8,5))
+#'  
+#'  
 #' @references JONES, H. G., HILLIS, R. M., GORDON, S. L., and BRENNAN, R. M. (2013). An approach to the determination of winter chill requirements for different Ribes cultivars. Plant. Biol.
 #' @importFrom utils tail
 #' @export
