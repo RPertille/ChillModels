@@ -5,6 +5,10 @@
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill for each temperature (TRUE is default).
 #' @details The model is based on dynamic accumulation, by means of the relationship between temperatures. It is applicable in subtropical climate conditions. This model was calibrated and validated based on observations of orchards in Palmas - PR, Brazil.
 #' @return The function returns values the chill for each temperature of vector (Total = FALSE), or returns the chill accumulation (Total = TRUE).
+#' @examples 
+#' 
+#' modified_dynamic(x = rnorm(1000, 15, 8), total = TRUE)
+#' 
 #' @author Marcos Robson Sachet, Idemir Citadin & Rafael Henrique Pertille
 #' @references FISHMAN, Svetlana, EREZ, A. & COUVILLON G. A. (1987). The Temperature Dependence of Dormancy Breaking in Plants: Computer Simulation of Processes Studied Under Controlled Temperatures. J. Theor. Biol.
 #' @note (Modelo da tese).
@@ -51,4 +55,5 @@ modified_dynamic <- function(x,total=TRUE){
     xi[which(interE >= 1)]
   if (total == TRUE)
     return(tail(cumsum(y),n=1))
+  else return(y)
 }

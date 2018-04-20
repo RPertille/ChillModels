@@ -7,7 +7,7 @@
 #' @return The function returns values the chill for each temperature of vector (Total = FALSE), or returns the chill accumulation (Total = TRUE).
 #' @examples
 #' 
-#' dynamic_model(rnorm(1000, 10, 5))
+#' dynamic_model(rnorm(1000, 10, 5), total = FALSE)
 #' 
 #' @references FISHMAN, Svetlana, EREZ, A. & COUVILLON, G. A. (1987). The Temperature Dependence of Dormancy Breaking in Plants: Computer Simulation of Processes Studied Under Controlled Temperatures. J. Theor. Biol.
 #' @importFrom utils tail

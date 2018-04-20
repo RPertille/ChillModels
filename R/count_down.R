@@ -6,6 +6,10 @@
 #' @param total TRUE Shows the total value of hours.
 #' @details Function to quantify temperature hours below x.
 #' @return The function returns the total value of hours.
+#' @examples 
+#' 
+#' count_down(tl = 7.2, x = rnorm(1000, 15, 5), total = TRUE)
+#' 
 #' @author Marcos Robson Sachet & Rafael Henrique Pertille.
 #' @importFrom utils tail
 #' @export

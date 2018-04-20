@@ -22,7 +22,7 @@ The model is based on dynamic accumulation, by means of the relationship between
 }
 \examples{
 
-dynamic_model(rnorm(1000, 10, 5))
+dynamic_model(rnorm(1000, 10, 5), total = FALSE)
 
 }
 \references{

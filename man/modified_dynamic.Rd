@@ -23,6 +23,11 @@ The model is based on dynamic accumulation, by means of the relationship between
 \note{
 (Modelo da tese).
 }
+\examples{
+
+modified_dynamic(x = rnorm(1000, 15, 8), total = TRUE)
+
+}
 \references{
 FISHMAN, Svetlana, EREZ, A. & COUVILLON G. A. (1987). The Temperature Dependence of Dormancy Breaking in Plants: Computer Simulation of Processes Studied Under Controlled Temperatures. J. Theor. Biol.
 }
