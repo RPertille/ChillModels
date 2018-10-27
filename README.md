@@ -24,4 +24,5 @@ library(ChillModels)
 
 
 #### Authors: Rafael Henrique Pertille, Marcos Robson Sachet and Idemir Citadin.
-![](C:/Users/henri/Pictures/logoutf.png)
+##### UTFPR - Campus Pato Branco
+
