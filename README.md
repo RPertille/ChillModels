@@ -14,10 +14,6 @@
  - Dinamic Model (Fichmann, 1987) adapted of the "chillR" package
  - Unified Model of Chuine (Chuine, I. et al. 2016)
 
-
-#### Authors: Rafael Henrique Pertille, Marcos Robson Sachet and Idemir Citadin.
-##### UTFPR - Campus Pato Branco
-
 The `ChillModels` package is hosted in GitHub. You can download it from GitHub using `devtools` package.
 
 ```{r, eval=FALSE}
@@ -26,3 +22,6 @@ devtools::install_github("RPertille/ChillModels")
 library(ChillModels)
 ```
 
+
+#### Authors: Rafael Henrique Pertille, Marcos Robson Sachet and Idemir Citadin.
+![](C:/Users/henri/Pictures/logoutf.png)
