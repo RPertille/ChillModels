@@ -15,7 +15,7 @@
  - Unified Model of Chuine (Chuine, I. et al. 2016)
 
 
-#### Rafael Henrique Pertille, Marcos Robson Sachet and Idemir Citadin.
+#### Authors: Rafael Henrique Pertille, Marcos Robson Sachet and Idemir Citadin.
 ##### UTFPR - Campus Pato Branco
 
 The `ChillModels` package is hosted in GitHub. You can download it from GitHub using `devtools` package.
