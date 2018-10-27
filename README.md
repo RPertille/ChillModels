@@ -18,7 +18,8 @@
 #### Rafael Henrique Pertille, Marcos Robson Sachet and Idemir Citadin.
 ##### UTFPR - Campus Pato Branco
 
-For install:
+The `ChillModels` package is hosted in GitHub. You can download it from GitHub using `devtools` package.
+
 ```{r, eval=FALSE}
 # install.packages("devtools")
 devtools::install_github("RPertille/ChillModels")
