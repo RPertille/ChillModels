@@ -19,7 +19,9 @@
 ##### UTFPR - Campus Pato Branco
 
 For install:
-
-install.packages("devtools")
+```{r, eval=FALSE}
+# install.packages("devtools")
 devtools::install_github("RPertille/ChillModels")
 library(ChillModels)
+```
+
