@@ -20,6 +20,6 @@
 
 For install:
 
-'# install.packages("devtools")
+install.packages("devtools")
 devtools::install_github("RPertille/ChillModels")
 library(ChillModels)
