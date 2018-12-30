@@ -9,7 +9,6 @@
 #' @examples 
 #' count_up(tl = 30, x = rnorm(1000, 20, 10), total = TRUE)
 #' 
-#' @author Marcos Robson Sachet & Rafael Henrique Pertille.
 #' @importFrom utils tail
 #' @export
 
