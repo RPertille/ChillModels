@@ -23,5 +23,5 @@ library(ChillModels)
 ```
 
 
-#### Authors: Rafael Henrique Pertille, Marcos Robson Sachet and Idemir Citadin.
+#### Authors: Rafael Henrique Pertille, Marcos Robson Sachet, Marieli Teresinha Guerrezi and Idemir Citadin.
 ![](https://raw.githubusercontent.com/RPertille/ChillModels/master/logoutf.png)
