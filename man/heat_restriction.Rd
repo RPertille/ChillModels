@@ -25,12 +25,13 @@ Quantifies the chill accumulation rates by Utah Model and North Carolina Model, 
 The model is based on chill-units (Utah Model or North Carolina Model). After a certain number of hours of heat to stop counting the negative units. Negativation of the cold by the heat is restricted to a few days, 24h for Raseira (1982), 96h for Ebert (1986), 30 hours for Fishmann (1987) and 36 hours for Anzanello (2012).
 }
 \examples{
-#5 hours of heat to stop counting the negative units.
-heat_restriction(rep(c(7,20, 7), each = 10), model = "nc",nh = 5, total=FALSE)
-#24 hours of heat to stop counting the negative units.
-heat_restriction(rep(19:26, 20), model = "nc", nh = 24, total = FALSE)
 
-}
-\references{
-Raseira (1982), Ebert (1986), Fishmann (1987) and Anzanello (2012).
+x <- rnorm(500, 15, 5)
+
+#5 hours of heat to stop counting the negative units.
+heat_restriction(x, model = "nc",nh = 5)
+
+#24 hours of heat to stop counting the negative units.
+heat_restriction(x, model = "nc", nh = 24)
+
 }

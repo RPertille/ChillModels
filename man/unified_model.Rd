@@ -15,16 +15,20 @@ unified_model(x, total = TRUE)
 The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
 }
 \description{
-Quantifies the chill accumulation rates by means of converting temperatures to chill-units. the coefficients used in the model are for the apple tree.
+Quantifies the chill accumulation rates by means of converting temperatures to chill-units.
 }
 \details{
-The model is based on chill-units, but the limits are unknown.
+The coefficients used in this model are adjusted for the apple tree.The model is based on chill-units, but the limits are unknown.
 }
 \examples{
 
-unified_model(rnorm(100, 10, 3), FALSE)
+x <- rnorm(500,10,3)
+unified_model(x)
+unified_model(x, FALSE)
 
 }
 \references{
 Chuine, I. et al. 2016. Can phenological models predict tree phenology accurately in the future? The unrevealed hurdle of endodormancy break. Global Change Biology.
+
+Chuine, Isabelle. 2000. A unified model for budburst of trees. Journal of Theoretical Biology
 }

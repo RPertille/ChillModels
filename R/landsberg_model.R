@@ -7,9 +7,14 @@
 #' @return The function returns values the chill for each temperature of vector (Total = FALSE), or returns the chill accumulation (Total = TRUE).
 #' @examples 
 #' 
-#' landsberg_model(rnorm(1000, 8, 5))
+#' x <- rnorm(500, 8, 5)
+#' landsberg_model(x)
+#' landsberg_model(x, FALSE)
 #' 
-#' @references I don't know.!!!
+#' @references 
+#' 
+#' LANDSBERG J. J. (1974). Apple Fruit Bud Development and Growth; Analysis and an Empirical Model. Annals of Botany.
+#' 
 #' @importFrom utils tail
 #' @export
 

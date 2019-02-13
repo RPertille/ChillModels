@@ -1,15 +1,22 @@
 #' @title Unified Model
 #' @name unified_model
-#' @description Quantifies the chill accumulation rates by means of converting temperatures to chill-units. the coefficients used in the model are for the apple tree.
+#' @description Quantifies the chill accumulation rates by means of converting temperatures to chill-units.
 #' @param x Vector containing temperature values (Celsius-degree).
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill-unit for each temperature (TRUE is default).
-#' @details The model is based on chill-units, but the limits are unknown.
+#' @details The coefficients used in this model are adjusted for the apple tree.The model is based on chill-units, but the limits are unknown.
 #' @return The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
 #' @examples 
 #' 
-#' unified_model(rnorm(100, 10, 3), FALSE)
+#' x <- rnorm(500,10,3)
+#' unified_model(x)
+#' unified_model(x, FALSE)
 #' 
-#' @references Chuine, I. et al. 2016. Can phenological models predict tree phenology accurately in the future? The unrevealed hurdle of endodormancy break. Global Change Biology.
+#' @references 
+#' 
+#' Chuine, I. et al. 2016. Can phenological models predict tree phenology accurately in the future? The unrevealed hurdle of endodormancy break. Global Change Biology.
+#' 
+#' Chuine, Isabelle. 2000. A unified model for budburst of trees. Journal of Theoretical Biology
+#' 
 #' @importFrom utils tail
 #' @export
 

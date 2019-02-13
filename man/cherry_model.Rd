@@ -25,8 +25,9 @@ This model was make for quantifying the chill accumulation rates to 'Sweetheart'
 }
 \examples{
 
-a <- cherry_model(rnorm(1000, 8, 7), FALSE)
-hist(a)
+x <- rnorm(500, 8, 7)
+cherry_model(x)
+cherry_model(x, FALSE)
 
 }
 \references{

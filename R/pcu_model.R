@@ -7,11 +7,16 @@
 #' @return The function returns values the chill-units for each temperature of vector.
 #' @examples 
 #' 
-#' a <- pcu_model(rnorm(1000, 15, 4), FALSE)
-#' hist(a)
+#' x <- rnorm(500, 15, 4)
+#' pcu_model(x)
+#' pcu_model(x, FALSE)
 #' 
-#' @references Richardson, E, A. et al. 1974. "A Model for Estimating the Completation of Rest for 'Redhaven' and 'Elberta' Peach Trees". Research Reports & Notes. 
-#' EBERT, A. et al. 1986. First experiences with chill units models is southern Brazil. Acta Horticulturae, The Hague,v. 184, p. 89-96.
+#' @references 
+#' 
+#' Richardson, E. A. et al. 1974. "A Model for Estimating the Completation of Rest for 'Redhaven' and 'Elberta' Peach Trees". Research Reports & Notes. 
+#' 
+#' Linsley-Noakes, G. C. et al. 1995. "Estimating daily positive Utah Chill units using daily minimum and maximum temperatures".
+#' 
 #' @importFrom utils tail
 #' @export
 pcu_model <- function(x, total=TRUE){

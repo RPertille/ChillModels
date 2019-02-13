@@ -8,8 +8,9 @@
 #' @return The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
 #' @examples 
 #' 
-#' a <- cherry_model(rnorm(1000, 8, 7), FALSE)
-#' hist(a)
+#' x <- rnorm(500, 8, 7)
+#' cherry_model(x)
+#' cherry_model(x, FALSE)
 #' 
 #' @references GUAK, Sunghee & NEILSEN, Denise. (2013). Chill Unit Models for Predicting Dormancy Completion of Floral Buds in Apple and Sweet Cherry.
 #' @importFrom utils tail

@@ -7,9 +7,14 @@
 #' @return The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
 #' @examples 
 #' 
-#' north_carolina(rnorm(100, 5, 4), FALSE)
+#' x <- rnorm(500, 5, 4)
+#' north_carolina(x)
+#' north_carolina(x, FALSE)
 #' 
-#' @references SHALTOUT, Assem D. & UNRATH, C. R. 1983. Rest Completion Prediction Model for 'Starkrimson Delicious' Apples. J. Amer. Soc. Hort. Sci.
+#' @references 
+#' 
+#' SHALTOUT, Assem D. & UNRATH, C. R. 1983. Rest Completion Prediction Model for 'Starkrimson Delicious' Apples. J. Amer. Soc. Hort. Sci.
+#' 
 #' @importFrom utils tail
 #' @export
 

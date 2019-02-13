@@ -25,7 +25,9 @@ This model was make for quantifying the chill accumulation rates to 'Gala' apple
 }
 \examples{
 
-gala_model(rep(3:15,100))
+x <- rnorm(500, 10, 5)
+gala_model(x)
+gala_model(x, FALSE)
 
 }
 \references{

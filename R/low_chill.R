@@ -7,10 +7,14 @@
 #' @return The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
 #' @examples 
 #' 
-#' a <- lowchill_model(rnorm(1000, 12, 5), FALSE)
-#' hist(a)
+#' x <- rnorm(500, 12, 5)
+#' lowchill_model(x)
+#' lowchill_model(x, FALSE)
 #' 
-#' @references GILREATH, Phyllis R. & BUCHANAN, D. W. (1981). Rest Prediction Model for Low-chilling 'Sungold' Nectarine. J. Amer. Soc. Hort. Sci.
+#' @references 
+#' 
+#' GILREATH, Phyllis R. & BUCHANAN, D. W. (1981). Rest Prediction Model for Low-chilling 'Sungold' Nectarine. J. Amer. Soc. Hort. Sci.
+#' 
 #' @importFrom utils tail
 #' @export
 

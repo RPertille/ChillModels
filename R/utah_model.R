@@ -7,8 +7,9 @@
 #' @return The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
 #' @examples 
 #' 
-#' a <- utah_model(rnorm(1000, 5 , 3), FALSE)
-#' hist(a)
+#' x <- rnorm(500, 5, 3)
+#' utah_model(x)
+#' utah_model(x, FALSE)
 #' 
 #' @references Richardson, E, A. et al. 1974. "A Model for Estimating the Completation of Rest for 'Redhaven' and 'Elberta' Peach Trees". Research Reports & Notes. 
 #' @importFrom utils tail

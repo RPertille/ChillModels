@@ -26,6 +26,7 @@ Function to quantify temperature hours between x and y.
 }
 \examples{
 
-count_between(tli = 8, tls = 15, x = rnorm(1000, 7, 3), total = TRUE)
+x <- rnorm(500, 7, 3)
+count_between(tli = 8, tls = 15, x,  total = TRUE)
 
 }

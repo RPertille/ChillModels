@@ -8,9 +8,14 @@
 #' @return The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
 #' @examples
 #' 
-#' gala_model(rep(3:15,100))
+#' x <- rnorm(500, 10, 5)
+#' gala_model(x)
+#' gala_model(x, FALSE)
 #' 
-#' @references GUAK, Sunghee & NEILSEN, Denise. (2013). Chill Unit Models for Predicting Dormancy Completion of Floral Buds in Apple and Sweet Cherry.
+#' @references
+#' 
+#' GUAK, Sunghee & NEILSEN, Denise. (2013). Chill Unit Models for Predicting Dormancy Completion of Floral Buds in Apple and Sweet Cherry.
+#' 
 #' @importFrom utils tail
 #' @export
 

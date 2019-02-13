@@ -22,10 +22,11 @@ The model is based on temperature coeficients (Q10). The Q10 coeficient is varia
 }
 \examples{
 
-q10_bidabe(rnorm(100, 10, 3), FALSE)
+x <- rnorm(500, 10, 3)
+q10_bidabe(x)
+q10_bidabe(x, FALSE)
 
 }
 \references{
-FISHMAN, Svetlana & COUVILLON, G. A. 1987. The Temperature Dependence of Dormancy Breaking in Plants: Mathematical Analysis of a Two-Step Model Involving a Cooperative Transition. J. Theor. Biol.
 BIDABE, B. 1967. Action de la temperature sur l' evolution des bourgeons de pommier et comparaison de methodes de controle de l' epoque de floraison. Annu. Physiol. Veg.
 }

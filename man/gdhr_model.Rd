@@ -22,10 +22,11 @@ The GDH model is based on the subtraction of the base temperature of each hourly
 }
 \examples{
 
-gdhr_model(rnorm(1000,8,3))
+x <- rnorm(500,8,3)
+gdhr_model(x)
+gdhr_model(x, FALSE)
 
 }
 \references{
-ANDERSON, J. L. et al. 1986. Validation of chill unit and flower bud phenology models for "Montmorency" sour cherry. Acta Horticulturae - Modelling in Fruit Research. 
 RICHARDSON, E.A. et al. 1975. Pheno-climatographyof spring 249 peach bud development. HortScience.
 }

@@ -7,9 +7,19 @@
 #' @return The function returns values the chill for each temperature of vector (Total = FALSE), or returns the chill accumulation (Total = TRUE).
 #' @examples
 #' 
-#' dynamic_model(rnorm(1000, 10, 5), total = FALSE)
+#' x <- rnorm(500, 10, 5)
+#' dynamic_model(x)
+#' dynamic_model(x, FALSE)
 #' 
-#' @references FISHMAN, Svetlana, EREZ, A. & COUVILLON, G. A. (1987). The Temperature Dependence of Dormancy Breaking in Plants: Computer Simulation of Processes Studied Under Controlled Temperatures. J. Theor. Biol.
+#' @note Code adapted from the function \code{\link[chillR]{Dynamic_Model}}, of the \href{https://CRAN.R-project.org/package=chillR}{chillR} Package
+#' 
+#' 
+#' @references
+#' 
+#' FISHMAN, Svetlana, EREZ, A. & COUVILLON, G. A. (1987). The Temperature Dependence of Dormancy Breaking in Plants: Computer Simulation of Processes Studied Under Controlled Temperatures. J. Theor. Biol.
+#' 
+#' LUEDELING, Eike  (2018). chillR: Statistical Methods for Phenology Analysis in Temperate Fruit Trees. R package version 0.70.12. \url{https://CRAN.R-project.org/package=chillR}
+#' 
 #' @importFrom utils tail
 #' @export
 

@@ -7,10 +7,14 @@
 #' @return The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
 #' @examples 
 #' 
-#' taiwan_model(rnorm(100, 20, 7))
+#' x <- rnorm(500, 20, 7)
+#' taiwan_model(x)
+#' taiwan_model(x, FALSE)
 #' 
-#' @references LU, M. T. et al. 2012. A model for estimating chilling requirement of very low-chill peaches in Taiwan. Acta Horticulturae, n. 962, p. 245.  
-#' MILECH, Chaiane Goveia. (2015). Estimativas da necessidade em frio de genótipos de pessegueiro por modelos matemáticos. Dissertação (Mestrado) - Programa de Pós-Graduação em Agronomia, Faculdade Eliseu Maciel - Universidade Federal de Pelotas.
+#' @references 
+#' 
+#' LU, M. T. et al. 2012. A model for estimating chilling requirement of very low-chill peaches in Taiwan. Acta Horticulturae, n. 962, p. 245.
+#' 
 #' @importFrom utils tail
 #' @export
 

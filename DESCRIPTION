@@ -2,10 +2,10 @@ Package: ChillModels
 Title: Functions for Processing Models of Chill and Heat
 Version: 1.0.000
 Authors@R: c(person("Rafael Henrique", "Pertille", email = "henriquepertille@gmail.com", role = c("aut","cre"), comment = c(ORCID = 0000-0002-4888-2001)),
-  person("Marcos Robson", "Sachet", email = "marcos.sachet@gmail.com", role = c("aut","ctb")),
-  person("Idemir", "Citadin", email = "idemir@utfpr.edu.br", role = c("aut","ctb")),
-  person("Marieli Teresinha", "Guerrezi", email = "idemir@utfpr.edu.br", role = c("aut","ctb")))
-Description: This package contains functions for calculate the chilling and heat acumulate for studies in the temperate fruit trees. The models in this package are: Utah (Richardson et al., 1974), Positive Chill Units - PCU (Utah modified by Infruitec), GDH_A (Growing Degree Hours by Anderson et al., 1986), GDH_R (Growing Degree Hours by Richardon, 1974), North Carolina (Shaltout e Unrath, 1983), Landsberg Model, Q10 Model (Bidabe), Model by Jones et al. (2013), Low-Chill Model (Gilreath and Buchanan, 1981), Model for Cherry "Sweetheart" (Guak and Nielsen, 2013), Model for apple "Gala" (Guak and Nielsen, 2013), Dinamic Model (Fichmann, 1987) adapted of the "chillR - 0.70.6" package (Eike Luedeling, 2018), and Unified Model (Isabela Chuine et al. 2016).
+  person("Marcos Robson", "Sachet", email = "marcos.sachet@gmail.com", role = c("aut","ctb"), comment = c(ORCID = 0000-0002-0395-2475)),
+  person("Idemir", "Citadin", email = "idemir@utfpr.edu.br", role = c("aut","ctb"), comment = c(ORCID = 0000-0001-9416-2761)),
+    person("Marieli Teresinha", "Guerrezi", email = "marieliguerrezi@hotmail.com ", role = c("aut","ctb"), comment = c(ORCID = 0000-0003-3314-4046)))
+Description: This package contains functions for calculate the chilling and heat acumulate for studies in the temperate fruit trees. The models in this package are: Utah (Richardson et al., 1974), Positive Chill Units - PCU (Linsley-Noaks et al., 1995), GDH_A (Growing Degree Hours by Anderson et al., 1986), GDH_R (Growing Degree Hours by Richardson, 1975), North Carolina (Shaltout e Unrath, 1983), Landsberg Model (Landsberg, 1974), Q10 Model (Bidabe, 1967), Jones Model (Jones et al., 2013), Low-Chill Model (Gilreath and Buchanan, 1981), Model for Cherry "Sweetheart" (Guak and Nielsen, 2013), Model for apple "Gala" (Guak and Nielsen, 2013), Taiwan Model (Lu et al., 2012), Dinamic Model (Fishman et al., 1987) adapted from the function "Dynamic_Model" of the "chillR" package (Luedeling, 2018), Unified Model (Chuine et al., 2016) and Heat Restriction model.
 Depends: R (>= 3.4.0)
 License: GPL-3
 Encoding: UTF-8

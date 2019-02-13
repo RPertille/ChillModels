@@ -17,13 +17,11 @@ The function returns values the chill for each temperature of vector (Total = FA
 \description{
 Quantifies the chill accumulation rates by means of converting temperatures to exponential units temperature.
 }
-\details{
-I don't know (exponetial units temperature???)
-}
 \examples{
  
-jones_model(rnorm(1000,8,5))
- 
+ x <- rnorm(500, 8, 5)
+jones_model(x)
+jones_model(x, FALSE) 
  
 }
 \references{

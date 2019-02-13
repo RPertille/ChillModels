@@ -22,10 +22,11 @@ The model is based on chill-units, where 1 chill-unit is when the tree is exposu
 }
 \examples{
 
-taiwan_model(rnorm(100, 20, 7))
+x <- rnorm(500, 20, 7)
+taiwan_model(x)
+taiwan_model(x, FALSE)
 
 }
 \references{
-LU, M. T. et al. 2012. A model for estimating chilling requirement of very low-chill peaches in Taiwan. Acta Horticulturae, n. 962, p. 245.  
-MILECH, Chaiane Goveia. (2015). Estimativas da necessidade em frio de genótipos de pessegueiro por modelos matemáticos. Dissertação (Mestrado) - Programa de Pós-Graduação em Agronomia, Faculdade Eliseu Maciel - Universidade Federal de Pelotas.
+LU, M. T. et al. 2012. A model for estimating chilling requirement of very low-chill peaches in Taiwan. Acta Horticulturae, n. 962, p. 245.
 }

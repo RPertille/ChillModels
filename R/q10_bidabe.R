@@ -7,10 +7,14 @@
 #' @return The function returns values for each temperature of vector (Total = FALSE), or returns the accumulation (Total = TRUE).
 #' @examples 
 #' 
-#' q10_bidabe(rnorm(100, 10, 3), FALSE)
+#' x <- rnorm(500, 10, 3)
+#' q10_bidabe(x)
+#' q10_bidabe(x, FALSE)
 #' 
-#' @references FISHMAN, Svetlana & COUVILLON, G. A. 1987. The Temperature Dependence of Dormancy Breaking in Plants: Mathematical Analysis of a Two-Step Model Involving a Cooperative Transition. J. Theor. Biol.
+#' @references
+#' 
 #' BIDABE, B. 1967. Action de la temperature sur l' evolution des bourgeons de pommier et comparaison de methodes de controle de l' epoque de floraison. Annu. Physiol. Veg.
+#' 
 #' @importFrom utils tail
 #' @export
 

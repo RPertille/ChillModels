@@ -22,8 +22,9 @@ The model is based on chill-units, where 1 chill-unit is when the tree is exposu
 }
 \examples{
 
-a <- lowchill_model(rnorm(1000, 12, 5), FALSE)
-hist(a)
+x <- rnorm(500, 12, 5)
+lowchill_model(x)
+lowchill_model(x, FALSE)
 
 }
 \references{

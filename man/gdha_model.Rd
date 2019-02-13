@@ -22,8 +22,9 @@ The GDH Model is based on base and optimum temperature. The base temperature is 
 }
 \examples{
 
-gdha_model(rnorm(1000, 8, 5))
-
+x <- rnorm(500,8,3)
+gdha_model(x)
+gdha_model(x, FALSE)
 
 }
 \references{

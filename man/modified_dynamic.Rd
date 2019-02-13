@@ -20,12 +20,11 @@ Quantifies the chill accumulation rates with modified dynamic equation for subtr
 \details{
 The model is based on dynamic accumulation, by means of the relationship between temperatures. It is applicable in subtropical climate conditions. This model was calibrated and validated based on observations of orchards in Palmas - PR, Brazil.
 }
-\note{
-(Modelo da tese).
-}
 \examples{
 
-modified_dynamic(x = rnorm(1000, 15, 8), total = TRUE)
+x <- rnorm(500, 15, 8)
+modified_dynamic(x)
+modified_dynamic(x, FALSE)
 
 }
 \references{

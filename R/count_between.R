@@ -9,7 +9,8 @@
 #' @return The function returns the total value of hours.
 #' @examples 
 #' 
-#' count_between(tli = 8, tls = 15, x = rnorm(1000, 7, 3), total = TRUE)
+#' x <- rnorm(500, 7, 3)
+#' count_between(tli = 8, tls = 15, x,  total = TRUE)
 #' 
 #' @importFrom utils tail
 #' @export

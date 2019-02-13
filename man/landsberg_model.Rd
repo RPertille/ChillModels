@@ -22,9 +22,11 @@ The model is based on the subtraction of the base temperature of each hourly tem
 }
 \examples{
 
-landsberg_model(rnorm(1000, 8, 5))
+x <- rnorm(500, 8, 5)
+landsberg_model(x)
+landsberg_model(x, FALSE)
 
 }
 \references{
-I don't know.!!!
+LANDSBERG J. J. (1974). Apple Fruit Bud Development and Growth; Analysis and an Empirical Model. Annals of Botany.
 }

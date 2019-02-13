@@ -22,7 +22,9 @@ The model is based on chill-units and optimum temperature, minimum and maximum t
 }
 \examples{
 
-north_carolina(rnorm(100, 5, 4), FALSE)
+x <- rnorm(500, 5, 4)
+north_carolina(x)
+north_carolina(x, FALSE)
 
 }
 \references{

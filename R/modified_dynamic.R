@@ -7,11 +7,15 @@
 #' @return The function returns values the chill for each temperature of vector (Total = FALSE), or returns the chill accumulation (Total = TRUE).
 #' @examples 
 #' 
-#' modified_dynamic(x = rnorm(1000, 15, 8), total = TRUE)
+#' x <- rnorm(500, 15, 8)
+#' modified_dynamic(x)
+#' modified_dynamic(x, FALSE)
 #' 
 #' @author Marcos Robson Sachet, Idemir Citadin & Rafael Henrique Pertille
-#' @references FISHMAN, Svetlana, EREZ, A. & COUVILLON G. A. (1987). The Temperature Dependence of Dormancy Breaking in Plants: Computer Simulation of Processes Studied Under Controlled Temperatures. J. Theor. Biol.
-#' @note (Modelo da tese).
+#' @references
+#' 
+#' FISHMAN, Svetlana, EREZ, A. & COUVILLON G. A. (1987). The Temperature Dependence of Dormancy Breaking in Plants: Computer Simulation of Processes Studied Under Controlled Temperatures. J. Theor. Biol.
+#' 
 #' @importFrom utils tail
 #' @export
 

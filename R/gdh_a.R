@@ -7,10 +7,14 @@
 #' @return The function returns values the GDH for each temperature of vector.
 #' @examples 
 #' 
-#' gdha_model(rnorm(1000, 8, 5))
+#' x <- rnorm(500,8,3)
+#' gdha_model(x)
+#' gdha_model(x, FALSE)
 #' 
+#' @references
 #' 
-#' @references Anderson, J. L. et al. 1986. Validation of chill unit and flower bud phenology models for "Montmorency" sour cherry. Acta Horticulturae - Modelling in Fruit Research.
+#' Anderson, J. L. et al. 1986. Validation of chill unit and flower bud phenology models for "Montmorency" sour cherry. Acta Horticulturae - Modelling in Fruit Research.
+#' 
 #' @importFrom utils tail
 #' @export
 
