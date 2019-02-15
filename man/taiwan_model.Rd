@@ -15,7 +15,7 @@ taiwan_model(x, total = TRUE)
 The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
 }
 \description{
-Quantifies the chill accumulation rates by means of converting temperatures to chill-units.
+Quantifies the chill accumulation by means of converting temperatures to chill-units.
 }
 \details{
 The model is based on chill-units, where 1 chill-unit is when the tree is exposure below 7.2°C. When the temperature is between 15.1°C and 26.6°C, there isn't accumulation of chill-unit. The chill-units accumulation is negative when occurs temperature above 26.7°C, and the chill-unit is -1 when occurs temperature above 27.8°C.

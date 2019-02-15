@@ -1,6 +1,6 @@
 #' @title North Carolina
 #' @name north_carolina
-#' @description Quantifies the chill accumulation rates by means of converting temperatures to chill-units.
+#' @description Quantifies the chill accumulation by means of converting temperatures to chill-units.
 #' @param x Vector containing temperature values (Celsius-degree).
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill-unit for each temperature (TRUE is default).
 #' @details The model is based on chill-units and optimum temperature, minimum and maximum temperature limits (They aren't classes), where 1 chill-unit is when the tree is exposure at optimum temperature (7.2°C). When the temperature is above 23°C (maximum temperature limit), the chill-unit is -2. The chill-units accumulation is 0 when occurs temperature below -1.1°C, being the miminum temperature limit.

@@ -1,6 +1,6 @@
 #' @title Sweet Cherry Model
 #' @name cherry_model
-#' @description Quantifies the chill accumulation rates by means of converting temperatures to chill-units.
+#' @description Quantifies the chill accumulation by means of converting temperatures to chill-units.
 #' @param x Vector containing temperature values (Celsius-degree).
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill-unit for each temperature (TRUE is default).
 #' @details The model is based on chill-units, where 1 chill-unit is when the tree is exposure between -2.1°C and 7°C. When the temperature is above 18°C the chill-unit is -1. The chill-units accumulation is 0 when occurs temperature between 14°C and 16°C.

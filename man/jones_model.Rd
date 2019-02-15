@@ -15,7 +15,7 @@ jones_model(x, total = TRUE)
 The function returns values the chill for each temperature of vector (Total = FALSE), or returns the chill accumulation (Total = TRUE).
 }
 \description{
-Quantifies the chill accumulation rates by means of converting temperatures to exponential units temperature.
+Quantifies the chill accumulation by means of converting temperatures to exponential units temperature.
 }
 \examples{
  

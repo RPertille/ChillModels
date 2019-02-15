@@ -15,7 +15,7 @@ pcu_model(x, total = TRUE)
 The function returns values the chill-units for each temperature of vector.
 }
 \description{
-Quantifies the chill and heat accumulation rates by means of converting temperatures to positive chill-units - Modified Utah Model.
+Quantifies the chill accumulation by means of converting temperatures to positive chill-units - Modified Utah Model.
 }
 \details{
 The PCU Model is the modified Utah Model. When the temperature is above 15.9°C, the chill-unit is 0. This modification was made because when the Utah model is applied in warm conditions, accumulation becomes negative.

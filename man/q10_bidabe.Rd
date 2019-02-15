@@ -15,7 +15,7 @@ q10_bidabe(x, total = TRUE)
 The function returns values for each temperature of vector (Total = FALSE), or returns the accumulation (Total = TRUE).
 }
 \description{
-Quantifies the chill accumulation rates by means of converting temperatures to temperature coeficients (Q10).
+Quantifies the chill accumulation by means of converting temperatures to temperature coeficients (Q10).
 }
 \details{
 The model is based on temperature coeficients (Q10). The Q10 coeficient is variable for each specie. The model contains dinamic variables. This model is been aplied in the warm climates. Was based on an exponential function that decreases according to the increase in temperature.

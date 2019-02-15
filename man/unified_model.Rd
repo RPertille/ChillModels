@@ -4,10 +4,16 @@
 \alias{unified_model}
 \title{Unified Model}
 \usage{
-unified_model(x, total = TRUE)
+unified_model(x, a = 0.89, b = -28.87, c = -19.44, total = TRUE)
 }
 \arguments{
 \item{x}{Vector containing temperature values (Celsius-degree).}
+
+\item{a}{Parameter defined by the user as the function limits. Default is 0.89.}
+
+\item{b}{Parameter defined by the user as the function limits. Default is -28.87.}
+
+\item{c}{Parameter defined by the user as the function limits. Default is -19.44.}
 
 \item{total}{TRUE Shows the total value of accumulation, FALSE shows the value of chill-unit for each temperature (TRUE is default).}
 }
@@ -15,7 +21,7 @@ unified_model(x, total = TRUE)
 The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
 }
 \description{
-Quantifies the chill accumulation rates by means of converting temperatures to chill-units.
+Quantifies the chill accumulation by means of converting temperatures to chill-units.
 }
 \details{
 The coefficients used in this model are adjusted for the apple tree.The model is based on chill-units, but the limits are unknown.

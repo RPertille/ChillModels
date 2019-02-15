@@ -1,6 +1,6 @@
 #' @title Taiwan model
 #' @name taiwan_model
-#' @description Quantifies the chill accumulation rates by means of converting temperatures to chill-units.
+#' @description Quantifies the chill accumulation by means of converting temperatures to chill-units.
 #' @param x Vector containing temperature values (Celsius-degree).
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill-unit for each temperature (TRUE is default).
 #' @details The model is based on chill-units, where 1 chill-unit is when the tree is exposure below 7.2°C. When the temperature is between 15.1°C and 26.6°C, there isn't accumulation of chill-unit. The chill-units accumulation is negative when occurs temperature above 26.7°C, and the chill-unit is -1 when occurs temperature above 27.8°C.

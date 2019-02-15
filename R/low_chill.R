@@ -1,6 +1,6 @@
 #' @title Low Chill
 #' @name lowchill_model
-#' @description Quantifies the chill accumulation rates by means of converting temperatures to chill-units.
+#' @description Quantifies the chill accumulation by means of converting temperatures to chill-units.
 #' @param x Vector containing temperature values (Celsius-degree).
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill-unit for each temperature (TRUE is default).
 #' @details The model is based on chill-units, where 1 chill-unit is when the tree is exposure between 1.8°C and 8°C. When the temperature is above 19.5°C, the chill-unit is -1. The chill-units accumulation is 0 when occurs temperature below -1°C and between 14°C and 17°C.

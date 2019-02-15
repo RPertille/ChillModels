@@ -15,7 +15,7 @@ lowchill_model(x, total = TRUE)
 The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
 }
 \description{
-Quantifies the chill accumulation rates by means of converting temperatures to chill-units.
+Quantifies the chill accumulation by means of converting temperatures to chill-units.
 }
 \details{
 The model is based on chill-units, where 1 chill-unit is when the tree is exposure between 1.8°C and 8°C. When the temperature is above 19.5°C, the chill-unit is -1. The chill-units accumulation is 0 when occurs temperature below -1°C and between 14°C and 17°C.

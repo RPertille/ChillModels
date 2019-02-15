@@ -15,7 +15,7 @@ landsberg_model(x, total = TRUE)
 The function returns values the chill for each temperature of vector (Total = FALSE), or returns the chill accumulation (Total = TRUE).
 }
 \description{
-Quantifies the chill accumulation rates based in the base temperature.
+Quantifies the chill accumulation based in the base temperature.
 }
 \details{
 The model is based on the subtraction of the base temperature of each hourly temperature. The temperature of the base is 5°C.

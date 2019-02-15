@@ -1,6 +1,6 @@
 #' @title Landsberg Model
 #' @name landsberg_model
-#' @description Quantifies the chill accumulation rates based in the base temperature.
+#' @description Quantifies the chill accumulation based in the base temperature.
 #' @param x Vector containing temperature values (Celsius-degree).
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill-unit for each temperature (TRUE is default).
 #' @details The model is based on the subtraction of the base temperature of each hourly temperature. The temperature of the base is 5°C. 

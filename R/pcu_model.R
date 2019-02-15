@@ -1,6 +1,6 @@
 #' @title Positive Chill Units - PCU
 #' @name pcu_model
-#' @description Quantifies the chill and heat accumulation rates by means of converting temperatures to positive chill-units - Modified Utah Model.
+#' @description Quantifies the chill accumulation by means of converting temperatures to positive chill-units - Modified Utah Model.
 #' @param x Vector containing temperature values (Celsius-degree).
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill-unit for each temperature (TRUE is default).
 #' @details The PCU Model is the modified Utah Model. When the temperature is above 15.9°C, the chill-unit is 0. This modification was made because when the Utah model is applied in warm conditions, accumulation becomes negative.

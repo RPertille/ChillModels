@@ -1,6 +1,6 @@
 #' @title Dynamic Model
 #' @name dynamic_model
-#' @description Quantifies the chill accumulation rates with dynamic equation.
+#' @description Quantifies the chill accumulation with dynamic equation (two-steps).
 #' @param x Vector containing temperature values (Celsius-degree).
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill for each temperature (TRUE is default).
 #' @details The model is based on dynamic accumulation, by means of the relationship between temperatures. The dynamic model assumes that the accumulated chill-units are not annulled by high temperatures.

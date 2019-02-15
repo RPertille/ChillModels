@@ -1,6 +1,6 @@
 #' @title Bidabe Model
 #' @name q10_bidabe
-#' @description Quantifies the chill accumulation rates by means of converting temperatures to temperature coeficients (Q10).
+#' @description Quantifies the chill accumulation by means of converting temperatures to temperature coeficients (Q10).
 #' @param x Vector containing temperature values (Celsius-degree).
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill-unit for each temperature (TRUE is default).
 #' @details The model is based on temperature coeficients (Q10). The Q10 coeficient is variable for each specie. The model contains dinamic variables. This model is been aplied in the warm climates. Was based on an exponential function that decreases according to the increase in temperature.

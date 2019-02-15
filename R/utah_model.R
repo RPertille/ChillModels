@@ -1,6 +1,6 @@
 #' @title Utah Model
 #' @name utah_model
-#' @description Quantifies the chill accumulation rates by means of converting temperatures to chill-units.
+#' @description Quantifies the chill accumulation by means of converting temperatures to chill-units.
 #' @param x Vector containing temperature values (Celsius-degree).
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill-unit for each temperature (TRUE is default).
 #' @details The model is based on chill-units, where 1 chill-unit is when the tree is exposure between 2.4°C and 9.1°C, being the optimum temperature 6°C . When the temperature is between 9.1°C and 12.4°C, the chill-unit is 0.5. The chill-units accumulation is 0 when occurs temperature below 1.4 and between 12.5°C and 15.9°C. When the temperature is between 16°C and 18°C, the chill-unit is -0.5. When the temperature is above 18°C, the chill-unit is -1. 

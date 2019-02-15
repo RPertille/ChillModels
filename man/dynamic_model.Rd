@@ -15,7 +15,7 @@ dynamic_model(x, total = TRUE)
 The function returns values the chill for each temperature of vector (Total = FALSE), or returns the chill accumulation (Total = TRUE).
 }
 \description{
-Quantifies the chill accumulation rates with dynamic equation.
+Quantifies the chill accumulation with dynamic equation (two-steps).
 }
 \details{
 The model is based on dynamic accumulation, by means of the relationship between temperatures. The dynamic model assumes that the accumulated chill-units are not annulled by high temperatures.

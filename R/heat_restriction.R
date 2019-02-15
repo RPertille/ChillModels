@@ -1,11 +1,11 @@
 #' @title Heat Restriction model
 #' @name heat_restriction
-#' @description Quantifies the chill accumulation rates by Utah Model and North Carolina Model, After a certain number of hours of heat.
+#' @description Quantifies the chill accumulation by Utah Model and North Carolina Model.
 #' @param x Vector containing temperature values (Celsius-degree).
 #' @param model Model to be used for calculation. Use "utah" for Utah Model and "nc" for North Carolina Model.
 #' @param nh Number of hours of continuous heat.
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill-unit for each temperature (TRUE is default).
-#' @details The model is based on chill-units (Utah Model or North Carolina Model). After a certain number of hours of heat to stop counting the negative units. Negativation of the cold by the heat is restricted to a few days, 24h for Raseira (1982), 96h for Ebert (1986), 30 hours for Fishmann (1987) and 36 hours for Anzanello (2012).
+#' @details The model is based on chill-units (Utah Model or North Carolina Model). After a certain number of hours of heat, the counting the negative units is interrupted. Negativation of the cold by the heat is restricted to a few days, 24h for Raseira (1982), 96h for Ebert (1986), 30 hours for Fishmann (1987) and 36 hours for Anzanello (2012).
 #' @return The function returns values the chill-units for each temperature of vector (Total = FALSE), or returns the chill-units accumulation (Total = TRUE).
 #' @examples
 #' 

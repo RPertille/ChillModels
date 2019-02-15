@@ -1,6 +1,6 @@
 #' @title Jones Model
 #' @name jones_model
-#' @description Quantifies the chill accumulation rates by means of converting temperatures to exponential units temperature.
+#' @description Quantifies the chill accumulation by means of converting temperatures to exponential units temperature.
 #' @param x Vector containing temperature values (Celsius-degree).
 #' @param total TRUE Shows the total value of accumulation, FALSE shows the value of chill for each temperature (TRUE is default).
 #' @return The function returns values the chill for each temperature of vector (Total = FALSE), or returns the chill accumulation (Total = TRUE).
