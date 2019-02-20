@@ -30,11 +30,8 @@ unified_model <- function(x, a = 0.89, b = -28.87, c = -19.44,  total=TRUE){
   if(b > 15 || b < -30) {
     warning("The limits in the 'b' argument was ultrapassed")
   }
-  if(c > 15 || c < -20) {
-    warning("The limits in the 'c' argument was ultrapassed")
-  }
   
- 
+
   y <- rep(0, length(x))
   y <- 1/(1+exp((a*(x-c)*(x-c)+b*(x- c))))
   

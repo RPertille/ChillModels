@@ -8,7 +8,9 @@
 #' @return The function returns the total value of hours.
 #' @examples 
 #' 
-#' count_down(tl = 7.2, x = rnorm(1000, 15, 5), total = TRUE)
+#' x <- rnorm(1000, 15, 5)
+#' 
+#' count_down(tl = 7.2, x = x, total = TRUE)
 #' 
 #' @importFrom utils tail
 #' @export
