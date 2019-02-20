@@ -1,6 +1,6 @@
-# ChillModels Package - Functions for Processing Models of Chill and Heat
+# ChillModels Package - Functions for Processing Chill and Heat Models for Temperate Fruit Trees
 
-### This package contains procedures for calculate the chilling and heat acumulate for studies in the temperate fruit trees. The models in this package are: 
+### This package contains procedures for calculate the chilling and heat accumulation for studies in the temperate fruit trees. The models in this package are: 
  - Utah (Richardson et al., 1974)
  - PCU (Utah modified by Infruitec)
  - GDH_A (Growing Degree Hours by Anderson et al., 1986)
@@ -11,7 +11,7 @@
  - Low-Chill Model (Gilreath and Buchanan, 1981)
  - Model for Cherry "Sweetheart" (Guak and Nielsen, 2013)
  - Model for apple "Gala" (Guak and Nielsen, 2013)
- - Dinamic Model (Fichmann, 1987) adapted of the "chillR" package
+ - Dynamic Model (Fichmann, 1987) adapted of the "chillR" package
  - Unified Model of Chuine (Chuine, I. et al. 2016)
 
 The `ChillModels` package is hosted in GitHub. You can download it from GitHub using `devtools` package.
