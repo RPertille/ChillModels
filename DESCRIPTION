@@ -1,14 +1,14 @@
 Package: ChillModels
-Title: Functions for Processing Chill and Heat Models for Temperate Fruit Trees
+Title: Processing Chill and Heat Models for Temperate Fruit Trees
 Version: 1.0.0
 Authors@R: c(person("Rafael Henrique", "Pertille", email = "henriquepertille@gmail.com", role = c("aut","cre"), comment = c(ORCID = 0000-0002-4888-2001)),
   person("Marcos Robson", "Sachet", email = "marcos.sachet@gmail.com", role = c("aut","ctb"), comment = c(ORCID = 0000-0002-0395-2475)),
   person("Idemir", "Citadin", email = "idemir@utfpr.edu.br", role = c("aut","ctb"), comment = c(ORCID = 0000-0001-9416-2761)),
   person("Marieli Teresinha", "Guerrezi", email = "marieliguerrezi@hotmail.com ", role = c("aut","ctb"), comment = c(ORCID = 0000-0003-3314-4046)))
-Description: Contains functions for calculate the chilling and heat accumulation for studies of the temperate fruit trees. The models in this package are: Utah (Richardson et al., 1974), Positive Chill Units - PCU (Linsley-Noaks et al., 1995), GDH_A (Growing Degree Hours by Anderson et al., 1986), GDH_R (Growing Degree Hours by Richardson, 1975), North Carolina (Shaltout e Unrath, 1983), Landsberg Model (Landsberg, 1974), Q10 Model (Bidabe, 1967), Jones Model (Jones et al., 2013), Low-Chill Model (Gilreath and Buchanan, 1981), Model for Cherry "Sweetheart" (Guak and Nielsen, 2013), Model for apple "Gala" (Guak and Nielsen, 2013), Taiwan Model (Lu et al., 2012), Dynamic Model (Fishman et al., 1987) adapted from the function "Dynamic_Model" of the "chillR" package (Luedeling, 2018), Unified Model (Chuine et al., 2016) and Heat Restriction model.
+Description: Calculates the chilling and heat accumulation for studies of the temperate fruit trees. The models in this package are: Utah (Richardson et al., 1974), Positive Chill Units - PCU (Linsley-Noaks et al., 1995), GDH-A (Growing Degree Hours by Anderson et al., 1986), GDH-R (Growing Degree Hours by Richardson, 1975), North Carolina (Shaltout e Unrath, 1983), Landsberg Model (Landsberg, 1974), Q10 Model (Bidabe, 1967), Jones Model (Jones et al., 2013 <DOI:10.1111/j.1438-8677.2012.00590.x>), Low-Chill Model (Gilreath and Buchanan, 1981), Model for Cherry "Sweetheart" (Guak and Nielsen, 2013 <DOI:10.1007/s13580-013-0140-9>), Model for apple "Gala" (Guak and Nielsen, 2013 DOI:<10.1007/s13580-013-0140-9>), Taiwan Model (Lu et al., 2012 <DOI:10.17660/ActaHortic.2012.962.35>), Dynamic Model (Fishman et al., 1987) adapted from the function Dynamic_Model() of the 'chillR' package (Luedeling, 2018), Unified Model (Chuine et al., 2016 <DOI:10.1111/gcb.13383>) and Heat Restriction model.
 Depends: R (>= 3.4.0)
 License: GPL-3
 Encoding: UTF-8
 LazyData: TRUE
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 Suggests: chillR, dplyr, lubridate, ggplot2
