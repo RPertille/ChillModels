@@ -11,4 +11,7 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: TRUE
 RoxygenNote: 6.1.1
-Suggests: chillR, dplyr, lubridate, ggplot2
+Suggests: chillR,
+dplyr,
+lubridate,
+ggplot2
