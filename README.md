@@ -1,4 +1,5 @@
 # ChillModels Package - Functions for Processing Chill and Heat Models for Temperate Fruit Trees
+[![Rdoc](http://www.rdocumentation.org/badges/version/ChillModels)](http://www.rdocumentation.org/packages/ChillModels)
 
 ### This package contains procedures for calculate the chilling and heat accumulation for studies in the temperate fruit trees. The models in this package are: 
  - Utah (Richardson et al., 1974)  
@@ -14,7 +15,7 @@
  - Dynamic Model (Fichmann, 1987) adapted of the "chillR" package  
  - Unified Model of Chuine (Chuine, I. et al. 2016)  
 
-The `ChillModels` package is hosted in GitHub. You can download it from GitHub using `devtools` package.
+The release version of `ChillModels` package is hosted in GitHub. You can download it from GitHub using `devtools` package.
 
 ```{r, eval=FALSE}
 # install.packages("devtools")
