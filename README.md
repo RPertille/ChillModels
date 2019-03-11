@@ -25,6 +25,6 @@ library(ChillModels)
 
 
 #### Authors: Rafael Henrique Pertille, Marcos Robson Sachet, Marieli Teresinha Guerrezi and Idemir Citadin.
-![](https://raw.githubusercontent.com/RPertille/ChillModels/master/logoutf.png)
+![](https://raw.githubusercontent.com/RPertille/ChillModels/master/logoutf.png) ![](https://raw.githubusercontent.com/RPertille/ChillModels/master/logoppgag.png)
 
-![](https://raw.githubusercontent.com/RPertille/ChillModels/master/logoppgag.png)
+![](https://raw.githubusercontent.com/RPertille/ChillModels/master/ufrr_brasao.png)
