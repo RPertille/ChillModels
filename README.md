@@ -1,7 +1,7 @@
 # ChillModels Package - Functions for Processing Chill and Heat Models for Temperate Fruit Trees
 [![Rdoc](http://www.rdocumentation.org/badges/version/ChillModels)](http://www.rdocumentation.org/packages/ChillModels)
 
-### This package contains procedures for calculate the chilling and heat accumulation for studies in the temperate fruit trees. The models in this package are: 
+### Calculate the chilling and heat accumulation for studies in the temperate fruit trees. The models in this package are: 
  - Utah (Richardson et al., 1974)  
  - PCU (Utah modified by Infruitec)  
  - GDH_A (Growing Degree Hours by Anderson et al., 1986)  
@@ -24,7 +24,7 @@ library(ChillModels)
 ```
 
 
-#### Authors: Rafael Henrique Pertille, Marcos Robson Sachet, Marieli Teresinha Guerrezi and Idemir Citadin.
+#### Authors: Rafael Henrique Pertille, Marcos Robson Sachet, Idemir Citadin and Marieli Teresinha Guerrezi.
 ![](https://raw.githubusercontent.com/RPertille/ChillModels/master/logoutf.png) ![](https://raw.githubusercontent.com/RPertille/ChillModels/master/logoppgag.png)
 
 <img src="https://raw.githubusercontent.com/RPertille/ChillModels/master/ufrr_brasao.png" width="150">
