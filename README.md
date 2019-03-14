@@ -1,6 +1,6 @@
 # ChillModels Package - Functions for Processing Chill and Heat Models for Temperate Fruit Trees
 ![CRAN status](http://www.r-pkg.org/badges/version/ChillModels)
-![CRAN status](http://cranlogs.r-pkg.org/badges/ChillModels)
+![CRAN status](http://cranlogs.r-pkg.org/badges/ggplot2)
 
 ### Calculate the chilling and heat accumulation for studies in the temperate fruit trees. The models in this package are: 
  - Utah (Richardson et al., 1974)  
