@@ -3,6 +3,7 @@
 <!-- badges: start -->
 
 [![CRAN status](http://www.r-pkg.org/badges/version/ChillModels)](https://cran.r-project.org/package=ChillModels)
+[![](https://cranlogs.r-pkg.org/badges/ChillModels)](https://cran.r-project.org/package=ChillModels)
 [![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/ChillModels)](https://cranlogs.r-pkg.org/badges/grand-total/ChillModels)
 
 <!-- badges: end -->
