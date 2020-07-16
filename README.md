@@ -30,7 +30,9 @@ The release version of `ChillModels` package is hosted in GitHub. You can downlo
 devtools::install_github("RPertille/ChillModels")
 library(ChillModels)
 ```
+[**Package Documentation**](https://rpertille.github.io/ChillModels/)  or download .pdf - [**Reference manual (PDF)**](https://cran.r-project.org/web/packages/ChillModels/ChillModels.pdf)
 
+Paper in Computers and Electronics in Agriculture [*here*](https://doi.org/10.1016/j.compag.2019.105067)
 
 #### Authors: Rafael Henrique Pertille, Marcos Robson Sachet, Idemir Citadin and Marieli Teresinha Guerrezi.
 ![](https://raw.githubusercontent.com/RPertille/ChillModels/master/logoutf.png) ![](https://raw.githubusercontent.com/RPertille/ChillModels/master/logoppgag.png)
